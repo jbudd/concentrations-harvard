@@ -1,7 +1,11 @@
 CS 50 final project
 concentrations@harvard
 
+
+
 Ben Donald
 Jared Rosen
 Johnathan Budd
+
+and not Yanick
 
