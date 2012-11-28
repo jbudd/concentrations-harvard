@@ -1,7 +1,7 @@
 <form action="login.php" method="post">
     <fieldset>
         <div class="control-group">
-            <input autofocus name="username" placeholder="Username" type="text"/>
+            <input autofocus name="email" placeholder="email" type="text"/>
         </div>
         <div class="control-group">
             <input name="password" placeholder="Password" type="password"/>

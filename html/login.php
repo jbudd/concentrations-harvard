@@ -7,9 +7,9 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST")
     {
         // validate submission
-        if (empty($_POST["username"]))
+        if (empty($_POST["email"]))
         {
-            apologize("You must provide your username.");
+            apologize("You must provide your email.");
         }
         else if (empty($_POST["password"]))
         {
