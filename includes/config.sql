@@ -1,15 +1,15 @@
 --
--- Database: `project`
+-- Database: `concentrations`
 --
  
-CREATE DATABASE IF NOT EXISTS  `project` ;
+CREATE DATABASE IF NOT EXISTS  `what2study` ;
  
  
 --
 -- Table structure for table `users`
 --
  
-CREATE TABLE IF NOT EXISTS `project`.`users` (
+CREATE TABLE IF NOT EXISTS `concentrations`.`users` (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
   `hash` varchar(255) NOT NULL,
