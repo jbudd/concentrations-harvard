@@ -10,10 +10,10 @@
      **********************************************************************/
 
     // your database's name
-    define("DATABASE", "project");
+    define("DATABASE", "what2study");
 
     // your database's password
-    define("PASSWORD", "crimson");
+    define("PASSWORD", "JuiF9DMugBoT");
 
     // your database's server
     define("SERVER", "project");

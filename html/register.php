@@ -29,12 +29,12 @@
         }
 
         // try to register user
-        $results = query("INSERT INTO users (username, hash, cash) VALUES(?, ?, 10000.0000)",
-            $_POST["username"], crypt($_POST["password"])
+        $results = query("INSERT INTO concentrations (email, password, concentration) VALUES(?, ?, ?)",
+            $_POST["email"], crypt($_POST["password"], $_POST["concentration"])
         );
         if ($results === false)
         {
-            apologize("That username appears to be taken.");
+            apologize("That concentration has already registered.");
         }
 
         // get new user's ID
